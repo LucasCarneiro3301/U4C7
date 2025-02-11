@@ -20,7 +20,7 @@ __Para este trabalho, os seguintes componentes e ferramentas se fazem necessári
 5) 1 LED
 6) Ferramenta educacional BitDogLab.
 
-__O resultado do projeto pode ser assistido através deste link: [U4C7 - PWM](https://youtu.be).__
+__O resultado do projeto pode ser assistido através deste link: [U4C7 - PWM](https://youtu.be/YymSxwrFUKg).__
 
 ## Instruções de Uso
 
