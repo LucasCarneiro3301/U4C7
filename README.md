@@ -6,7 +6,7 @@ Lucas Carneiro de Araújo Lima
 
 ## ATIVIDADE 
 __Descrição:__
-O exercício propõe o controle de um servomotor por meio de um sinal PWM, ajustando a posição do braço para 180°, 90° e 0° com tempos de espera de 5 segundos em cada posição. Para isso, define-se um ciclo ativo de 2400 µs (180°), 1470 µs (90°) e 500 µs (0°), correspondendo a _duty cycles_ de 0,12%, 0,0735% e 0,025%, respectivamente. Após esses ajustes, deve-se implementar uma rotina para movimentação periódica e suave do servo entre 0° e 180°, utilizando incrementos de ±5 µs e um atraso de 10 ms para cada ajuste.
+O exercício propõe o controle de um servomotor por meio de um sinal PWM, ajustando a posição do braço para 180°, 90° e 0° com tempos de espera de 5 segundos em cada posição. Para isso, define-se um ciclo ativo de 2400 µs (180°), 1470 µs (90°) e 500 µs (0°), correspondendo a _duty cycles_ de 12%, 7.35% e 2.5%, respectivamente. Após esses ajustes, deve-se implementar uma rotina para movimentação periódica e suave do servo entre 0° e 180°, utilizando incrementos de ±5 µs e um atraso de 10 ms para cada ajuste.
 
 <div align="center">
   <img src="https://github.com/user-attachments/assets/a921a2e0-cf9f-4356-bb28-dfe01573f0b4" alt="GIF demonstrativo" width="400"/>
