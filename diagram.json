@@ -1,0 +1,23 @@
+{
+    "version": 1,
+    "author": "Lucas Carneiro de Araújo Lima",
+    "editor": "wokwi",
+    "parts": [
+      {
+        "type": "board-pi-pico-w",
+        "id": "pico",
+        "top": -32.05,
+        "left": -303.65,
+        "attrs": { "builder": "pico-sdk" }
+      },
+      { "type": "wokwi-servo", "id": "servo1", "top": -2, "left": -153.6, "attrs": {} }
+    ],
+    "connections": [
+      [ "pico:GP0", "$serialMonitor:RX", "", [] ],
+      [ "pico:GP1", "$serialMonitor:TX", "", [] ],
+      [ "pico:GND.8", "servo1:GND", "black", [ "h57.91", "v48" ] ],
+      [ "pico:GP22", "servo1:PWM", "blue", [ "h48.31", "v-19.4" ] ],
+      [ "servo1:V+", "pico:3V3", "red", [ "h-28.8", "v-38.3" ] ]
+    ],
+    "dependencies": {}
+  }
